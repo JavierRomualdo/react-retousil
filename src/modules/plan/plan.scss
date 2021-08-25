@@ -1,0 +1,284 @@
+.plan__form {
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 140px;
+    padding: 16px;
+  }
+  .plan__form .btn__primary {
+    margin-top: 12px;
+  }
+  @media only screen and (min-width: 768px) {
+    .plan__form {
+      justify-content: center;
+      display: flex;
+      flex-flow: column;
+      max-width: 432px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
+  }
+  @media only screen and (min-width: 1024px) {
+    .plan__form {
+      display: inline-block;
+      text-align: left;
+      position: relative;
+      top: -10px;
+    }
+    .plan__form .btn__primary {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+  @media only screen and (max-width: 330px) {
+    .plan__form {
+      margin-top: 90px;
+    }
+  }
+  @media only screen and (min-width: 330px) {
+    .plan__form {
+      padding: 0;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    .plan__form {
+      margin-top: 160px;
+    }
+  }
+  @media only screen and (min-width: 1024px) {
+    .plan__form {
+      margin-top: 76px;
+    }
+  }
+  .plan__form--title h2 {
+    font-weight: 700 !important;
+    margin: 0 0 20px !important;
+  }
+  .plan__form--title b {
+    display: block !important;
+    font-weight: 700 !important;
+  }
+  .plan__form .terminos {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  .plan__form .btn__primary--red-m {
+    padding: 16px 32px;
+  }
+  @media only screen and (min-width: 768px) {
+    .plan__form {
+      width: auto;
+    }
+    .plan__form .btn__primary--red-m {
+      padding: 20px 32px;
+    }
+  }
+  .plan__form .icon-arrow-right {
+    color: #fff;
+  }
+  .plan__form select {
+    border-right: 0;
+  }
+  .plan__form #hide {
+    display: none !important;
+  }
+  @media only screen and (min-width: 1024px) {
+    .plan__form {
+      width: 60%;
+      margin-left: 20%;
+      margin-top: 0;
+    }
+  }
+  .plan__form .hide-mobile.active {
+    display: block !important;
+  }
+  .plan__form h2 {
+    font-weight: 300;
+    font-family: Lato, sans-serif;
+    margin-top: 0;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    display: inline-block;
+    color: #494f66;
+    margin-bottom: 8px;
+  }
+  @media only screen and (min-width: 768px) {
+    .plan__form h2 {
+      font-size: 28px;
+    }
+  }
+  @media only screen and (min-width: 1024px) {
+    .plan__form h2 {
+      margin-bottom: 8px;
+      font-size: 28px;
+      line-height: 36px;
+    }
+  }
+  .plan__form h2 b {
+    font-weight: 400;
+    color: #ef3340;
+  }
+  .plan__form p {
+    margin-bottom: 24px;
+    margin-top: 0;
+  }
+  .plan__form .sub-title,
+  .plan__form p {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    line-height: 28px;
+    color: #676f8f;
+    font-size: 16px;
+  }
+  .plan__form .sub-title {
+    margin-bottom: 32px;
+  }
+  .plan__form .cta {
+    display: inline-block;
+  }
+  @media only screen and (min-width: 1024px) {
+    .plan__form .cta {
+      width: auto;
+    }
+  }
+  .plan__form .checkbox {
+    margin-bottom: 32px;
+    text-align: left;
+  }
+  .plan__form .checkbox p {
+    font-style: normal;
+    width: 100%;
+    display: flex;
+  }
+  .plan__form .checkbox p,
+  .plan__form .checkbox p .link {
+    font-family: Roboto;
+    font-weight: 300;
+    line-height: 20px;
+    font-size: 12px;
+    letter-spacing: 0.2px;
+  }
+  .plan__form .checkbox p .link {
+    color: #a3abcc;
+    text-transform: none;
+  }
+  .plan__form .checkbox p .link span {
+    -webkit-text-decoration: underline #a9b1d1;
+    text-decoration: underline #a9b1d1;
+    font-family: Roboto, sans-serif;
+    color: #a3abcc !important;
+  }
+  @media only screen and (min-width: 1024px) {
+    .plan__form .checkbox {
+      margin-bottom: 0 !important;
+    }
+  }
+  .plan__form #lleno input,
+  .plan__form #lleno select {
+    border-color: #edeff5;
+  }
+  .plan__form .doc {
+    width: 28.5714285714%;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #fff;
+  }
+  .plan__form .doc select {
+    border-radius: 4px 0 0 4px;
+    color: #494f66;
+  }
+  .plan__form .num {
+    width: 71.4285714286%;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .plan__form .num input {
+    border-radius: 0 4px 4px 0;
+  }
+  .plan__form .two-tbn {
+    display: flex;
+    height: 54px;
+    align-items: center;
+    flex-direction: column;
+  }
+  .plan__form .two-tbn button {
+    margin: 0;
+    width: 100%;
+  }
+  .plan__form .two-tbn button:first-child {
+    padding: 18px 32px;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0 0 32px;
+  }
+  @media only screen and (min-width: 480px) {
+    .plan__form .two-tbn button:first-child {
+      max-width: 130px;
+      padding: 16px 32px;
+      margin: 0 16px 0 0;
+    }
+  }
+  .plan__form .two-tbn .two-tbn-link {
+    display: flex;
+    width: 102px;
+  }
+  .plan__form .two-tbn .two-tbn-link img {
+    margin-right: 8px;
+  }
+  .plan__form .two-tbn .two-tbn-link #circle3 {
+    border-top: 2px solid #ef3340 !important;
+    border-right: 2px solid #ef3340 !important;
+    border-bottom: 2px solid #ef3340 !important;
+  }
+  .plan__form .two-tbn .two-tbn-link button {
+    font-size: 14px;
+    color: #6769ff;
+    width: 100%;
+    padding: 0;
+  }
+  .plan__form .two-tbn .two-tbn-link button:before {
+    content: "";
+    // background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='20' height='20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M8.192 11.111c-1.48-2.122-2.02-3.331-.66-4.29 1.172-.823 1.094-.915.041-2.96-.973-1.89-1.378-2.378-2.717-1.293C1.877 4.648 2.67 8.024 5.91 12.674c3.24 4.65 6.244 6.555 9.128 4.51 1.473-.894 1.155-1.444-.28-3.009-1.551-1.694-1.625-1.778-2.776-.968-1.341.944-2.312.026-3.79-2.096z' fill='%236769FF'/%3E%3C/svg%3E");
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    display: inline-block;
+    margin: 0 4px 0 0;
+  }
+  @media (max-width: 768px) {
+    .plan__form .two-tbn {
+      margin-bottom: 72px;
+    }
+  }
+  @media only screen and (min-width: 480px) {
+    .plan__form .two-tbn {
+      flex-direction: row;
+    }
+  }
+
+  .accordion-button::after {
+    width: 0.8rem;
+    height: 0.8rem;
+    background-size: 0.8rem;
+  }
+
+  .btn_comprar {
+    height: 56px;
+    width: 180px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    /* margin-left: 632px; */
+    /* left: 632px;
+    top: 430px; */
+    border-radius: 8px;
+
+    /* position: absolute; */
+    /* bottom: 0%; */
+    background: #2f80ed;
+    color: #FFFFFF;
+    border-radius: 8px;
+}
